@@ -1,0 +1,110 @@
+/* Set global styling for all elements */
+* {
+    color: white;
+    border-radius: 5px;
+}
+
+/* Body styling */
+body {
+    background-color: black;
+}
+
+/* Header styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1F2937; 
+}
+
+/* Button styling */
+button {
+    background-color: blue;
+    border-radius: 20px;
+    height: 30px;
+    width: 80px;
+    box-shadow: none;
+}
+
+/* Links styling */
+.links {
+    display: flex;
+    font-size: 18px;
+}
+
+.links a {
+    margin-left: 10px;
+}
+
+/* Main heading styling */
+#main-heading {
+    display: flex;
+    padding: 20px;
+    background-color: #1F2937;
+}
+
+/* Heading styling */
+h1, h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+/* Image styling */
+#image {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* Content heading styling */
+.content h1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* List styling */
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+/* Quote styling */
+.quote {
+    padding: 50px;
+    background-color: #1F2937;
+    font-size: 32px;
+}
+
+/* Border styling */
+.border {
+    margin: 50px;
+}
+
+/* Illustration image styling */
+.illustration img {
+    border-radius: 8px;
+}
+
+/* Button styling for signup and regular button */
+#signup-button, #button {
+    background-color: #3882F6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+/* Footer styling */
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1F2937;
+}
